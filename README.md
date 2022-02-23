@@ -43,7 +43,7 @@ constructor(x: float, y: float)
 ```js
 constructor(game: BaseGame)
 ```
-`Physics.gravity` - Value representing the game's gravity `(default: 0.08)`<br>
+`Physics.gravity` - Value representing the game's gravity `(default: 0.0775)`<br>
 `Physics.airFriction` - Value representing air friction/resistance `(default: 0.003)`<br>
 `Physics.groundFriction` - Value representing ground friction/resistance `(default: 0.03)`<br>
 `Physics.maxSpeed` - Value representing the maximum speed of Entities `(default: 2)`, useful for development<br>
