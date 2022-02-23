@@ -13,9 +13,10 @@ game.start();
 Now your game has started ticking! To capture each tick and create a game loop, simply use the `BaseGame.onTick(function(BaseGame): void)` function.
 ```js
 game.onTick(function(gameInstance) {
-  /* Work your magical code here! */
-  /* Each tick is one millisecond */
-  /* Note that this function is
+  /*
+  - Work your magical code here!
+  - Each tick is one millisecond
+  - Note that this function is
      called every tick, so be
      careful what variables are
      stored and set here */
