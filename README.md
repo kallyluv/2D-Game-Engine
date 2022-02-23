@@ -15,6 +15,10 @@ Now your game has started ticking! To capture each tick and create a game loop, 
 game.onTick(function(gameInstance) {
   /* Work your magical code here! */
   /* Each tick is one millisecond */
+  /* Note that this function is
+     called every tick, so be
+     careful what variables are
+     stored and set here */
 });
 ```
 That's it! You've successfully created an in-browser tickable Game Engine with an accurate 2D Axis Aligned Border Box Physics Engine!
