@@ -49,4 +49,4 @@ constructor(game: BaseGame)
 `Physics.maxSpeed` - Value representing the maximum speed of Entities `(default: 2)`, useful for development<br>
 `Physics.terminalVelocity` - Value representing terminal velocity for Entities `(default: 3)`, useful for development<br>
 `Physics.getTileAt(x: float, y: float): ?Tile` - Gets the tile at the given coordinates, returning `undefined` if not found<br>
-`Physics.collide(box1: Entity, box2: Tile): string` - Checks if the Entity and a Tile are colliding/going to collide, returning the side if so and returning `"none"` if not.<br>
+`Physics.collide(box1: Entity, box2: Tile): [string, Tile]` - Checks if the Entity and a Tile are colliding/going to collide, returning `[sideOfCollision, Tile]` if so and returning `["none", Tile]` if not.<br>
