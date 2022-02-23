@@ -16,10 +16,8 @@ game.onTick(function(gameInstance) {
   /*
   - Work your magical code here!
   - Each tick is one millisecond
-  - Note that this function is
-     called every tick, so be
-     careful what variables are
-     stored and set here */
+  - Note that this function is called every tick, so be careful what variables are stored and set here
+  */
 });
 ```
 That's it! You've successfully created an in-browser tickable Game Engine with an accurate 2D Axis Aligned Border Box Physics Engine!
