@@ -22,7 +22,7 @@ constructor(x: float, y: float, width: float, height: float, entityInfo: EntityI
   `Entity.position.current: Vector2` - A Vector2 containing the X & Y of the current location of the Entity<br>
 `Entity.motion: Vector2` - A Vector2 containing the X & Y motion/acceleration of the Entity<br>
 `Entity.onGround: boolean` - A boolean telling whether the Entity is on the ground should the developer set it<br>
-`Entity.entityTickBase(): void` - A function designed to be called every tick to control an Entity, can be useful for Non-Player-Characters (NPCs)<br>
+`Entity.entityTickBase(): void` - A function that is called every tick to control an Entity, can be useful for Non-Player-Characters (NPCs)<br>
 
 ### EntityInfo
 ```js
