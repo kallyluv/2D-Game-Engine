@@ -39,6 +39,7 @@ export class BaseGame {
 
 	start() {
 		this.tickBase = setInterval(() => {
+			this.entities.forEach((entity) => entity.entityTickBase());
 			this.tickListener(this);
 		}, 1);
 	}
